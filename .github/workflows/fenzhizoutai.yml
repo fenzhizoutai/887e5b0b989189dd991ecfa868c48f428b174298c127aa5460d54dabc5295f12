@@ -1,9 +1,8 @@
 name: fenzhizoutai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
+    - cron: '10 3/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: fenzhizoutai
         env:
-          qzput657: ${{ secrets.qzput657 }}
+          xecvw61: ${{ secrets.xecvw61 }}
         run: |
-          echo $qzput657 | jq -r .qxc6 | /bin/bash
-          echo $oap80 | jq -r .axut0 | /bin/bash
-          echo $c35202 | jq -r .yfmdi6 | /bin/bash
-          echo $mfua59 | jq -r .hmn2 | /bin/bash
-          echo $tktjx7222 | jq -r .wkuzo9990 | /bin/bash
-          echo $eq95988 | jq -r .rc8 | /bin/bash
-          echo $q9089 | jq -r .rs387 | /bin/bash
-          echo $pim4293 | jq -r .usd1334 | /bin/bash
+          echo $xecvw61 | jq -r .zn172 | /bin/bash
+          echo $iikj1 | jq -r .kqhx5915 | /bin/bash
+          echo $fskf06648 | jq -r .sekj2390 | /bin/bash
+          echo $z3759 | jq -r .uu699 | /bin/bash
+          echo $gytrt214 | jq -r .sxh72513 | /bin/bash
+          echo $wkk57869 | jq -r .nc20704 | /bin/bash
+          echo $xz1989 | jq -r .nelss4037 | /bin/bash
+          echo $mxx98962 | jq -r .uvbpg9929 | /bin/bash
+          echo $giabx021 | jq -r .lo21 | /bin/bash
+          echo $yzci379 | jq -r .ww2447 | /bin/bash
+          echo $yevtx20629 | jq -r .k49 | /bin/bash
+          echo $sjo2 | jq -r .b7 | /bin/bash
+          echo $fa9479 | jq -r .nkebt745 | /bin/bash
+          echo $smt3271 | jq -r .l8 | /bin/bash
+          echo $qsa6092 | jq -r .qxc54 | /bin/bash
 
